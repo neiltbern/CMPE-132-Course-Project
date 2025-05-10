@@ -9,3 +9,13 @@
 | humidity                        | Humidity readings of a weather sensor linked to the network                                         |
 | label                           | Tag normal and attack records, where 0 indicates normal and 1 indicates attacks    |
 | type                            | Tag attack categories, such as normal DoS, DDoS, and backdoor attacks, and normal records        |
+
+
+| No of rows            | Type                             |
+|-----------------------|----------------------------------|
+| 35000                 | normal                           |
+| 5000                  | password                         |
+| 5000                  | ddos                             |
+| 2865                  | ransomware                       |
+| 5000                  | injection                        |
+| 5000                  | backdoor                         |
