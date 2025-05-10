@@ -10,6 +10,6 @@
 
 module load python3/3.8.8
 
-python weather.py
+python weather_data_attacks.py
 
 echo "weather job completed successfully!"
