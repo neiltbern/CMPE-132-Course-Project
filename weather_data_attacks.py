@@ -16,7 +16,7 @@ print("Evaluating the Decision Tree, SVM (RBF), and XGBoost on Weather dataset",
 os.makedirs("results", exist_ok=True) #the resulting roc curves and confusion matricies will be in this directory
 
 #Loading and cleaning. Removing xss and scanning due to low amounts of those attacks
-df = pd.read_csv("./Train_Test_IoT_dataset/Train_Test_IoT_Weather.csv")
+df = pd.read_csv("Train_Test_IoT_Weather.csv")
 df = df[~df["type"].isin(["xss", "scanning"])]
 numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
 df_numeric = df[numeric_cols].copy()
