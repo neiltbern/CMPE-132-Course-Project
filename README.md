@@ -1,5 +1,9 @@
 # CMPE-132-Course-Project
 
+This project implements a Machine Learning-based Intrusion Detection System (IDS) using the **TON_IoT Weather dataset**. Our system is designed to detect common cybersecurity threats targeting IoT environments, such as DDoS, Backdoor, Injection, and Ransomware attacks, using telemetry data collected from weather sensors. The goal of our project is to design and implement a lightweight IDS that generalizes and detects certain attack patterns.
+
+## Dataset Overview
+
 The following features and descriptions are included in the TON_IoT Weather activity dataset used for training and evaluation:
 
 ### Dataset Features
